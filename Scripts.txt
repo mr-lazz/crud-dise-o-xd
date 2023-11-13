@@ -1,0 +1,16 @@
+
+
+create database instituto;
+use instituto;
+
+
+create table alumno(
+      rut        varchar(10) not null primary key,
+	  nombre     varchar(20) not null,
+	  fechaNac   date not null,
+	  carrera    varchar(20) not null
+);
+
+insert into alumno values('1-1','susana','2000/10/05',"Programador");
+insert into alumno values('2-2','juan','2002/09/15',"Programador");
+insert into alumno values('3-3','david','2001/06/12',"Programador");
